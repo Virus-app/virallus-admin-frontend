@@ -222,7 +222,7 @@ function CommunityContent() {
 
   const communityMembers = communityHierarchy[userId] || []
 
-  console.log("[v0] Current userId:", userId, "Community members count:", communityMembers.length)
+  console.log("Platform Current userId:", userId, "Community members count:", communityMembers.length)
 
   const itemsPerPage = 5
   const membersPaginated = communityMembers.slice((communityPage - 1) * itemsPerPage, communityPage * itemsPerPage)
